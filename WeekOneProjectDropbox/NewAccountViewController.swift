@@ -13,14 +13,12 @@ class NewAccountViewController: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-
     /*func textFieldShouldReturn(textField: UITextField) -> Bool {
         textField.resignFirstResponder()
         return false
     }*/
+
     }
-    
     
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
