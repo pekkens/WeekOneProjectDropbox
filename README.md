@@ -11,12 +11,12 @@ Required:
 * [x] Before creating the account, user can choose to read the terms of service.
 * [x] After creating the account, user can view the placeholders for Files, Photos, and Favorites as well as the Settings screen.
 * [x] User can log out from the Settings screen.
-* [ ] User can tap the area for "Having trouble signing in?"
+* [x] User can tap the area for "Having trouble signing in?"
 * [x] User can log out from the Settings screen.
 
 Optional: 
 * [ ] Add a detail view for one of the files and implement favoriting the file.
-* [ ] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
+* [x] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
 * [ ] You should be able to swipe through the welcome screens instead of just tapping them.
 
 Visual Walk Through:
