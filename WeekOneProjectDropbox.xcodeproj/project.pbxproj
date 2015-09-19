@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C283B381BAB482400683C61 /* SettingsScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C283B371BAB482400683C61 /* SettingsScrollViewController.swift */; };
+		7C6010E31BADE75D0065914C /* NewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6010E21BADE75D0065914C /* NewAccountViewController.swift */; };
+		7C6010E51BADF1C70065914C /* NextResponderTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6010E41BADF1C70065914C /* NextResponderTextField.swift */; };
 		7CAA69D81BA9F50500C8FE25 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA69D71BA9F50500C8FE25 /* AppDelegate.swift */; };
 		7CAA69DA1BA9F50500C8FE25 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA69D91BA9F50500C8FE25 /* ViewController.swift */; };
 		7CAA69DD1BA9F50500C8FE25 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA69DB1BA9F50500C8FE25 /* Main.storyboard */; };
@@ -26,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		7C283B371BAB482400683C61 /* SettingsScrollViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsScrollViewController.swift; sourceTree = "<group>"; };
+		7C6010E21BADE75D0065914C /* NewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountViewController.swift; sourceTree = "<group>"; };
+		7C6010E41BADF1C70065914C /* NextResponderTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextResponderTextField.swift; sourceTree = "<group>"; };
 		7CAA69D21BA9F50500C8FE25 /* WeekOneProjectDropbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WeekOneProjectDropbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAA69D61BA9F50500C8FE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CAA69D71BA9F50500C8FE25 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -77,9 +83,12 @@
 		7CAA69D41BA9F50500C8FE25 /* WeekOneProjectDropbox */ = {
 			isa = PBXGroup;
 			children = (
+				7C6010E41BADF1C70065914C /* NextResponderTextField.swift */,
+				7C283B371BAB482400683C61 /* SettingsScrollViewController.swift */,
 				7CAA69D71BA9F50500C8FE25 /* AppDelegate.swift */,
 				7CAA69D91BA9F50500C8FE25 /* ViewController.swift */,
 				7CAA69DB1BA9F50500C8FE25 /* Main.storyboard */,
+				7C6010E21BADE75D0065914C /* NewAccountViewController.swift */,
 				7CAA69DE1BA9F50500C8FE25 /* Images.xcassets */,
 				7CAA69E01BA9F50500C8FE25 /* LaunchScreen.xib */,
 				7CAA69D51BA9F50500C8FE25 /* Supporting Files */,
@@ -213,7 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				7CAA69DA1BA9F50500C8FE25 /* ViewController.swift in Sources */,
+				7C6010E51BADF1C70065914C /* NextResponderTextField.swift in Sources */,
+				7C283B381BAB482400683C61 /* SettingsScrollViewController.swift in Sources */,
 				7CAA69D81BA9F50500C8FE25 /* AppDelegate.swift in Sources */,
+				7C6010E31BADE75D0065914C /* NewAccountViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +357,7 @@
 				INFOPLIST_FILE = WeekOneProjectDropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -355,6 +368,7 @@
 				INFOPLIST_FILE = WeekOneProjectDropbox/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -411,6 +425,7 @@
 				7CAA69F31BA9F50500C8FE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7CAA69F41BA9F50500C8FE25 /* Build configuration list for PBXNativeTarget "WeekOneProjectDropboxTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +434,7 @@
 				7CAA69F61BA9F50500C8FE25 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
