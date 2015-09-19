@@ -17,6 +17,7 @@
 		7CAA69E21BA9F50500C8FE25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA69E01BA9F50500C8FE25 /* LaunchScreen.xib */; };
 		7CAA69EE1BA9F50500C8FE25 /* WeekOneProjectDropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA69ED1BA9F50500C8FE25 /* WeekOneProjectDropboxTests.swift */; };
 		7CCF75A71BAE0C11009D63B9 /* CreatNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75A61BAE0C11009D63B9 /* CreatNewAccountViewController.swift */; };
+		7CCF75A91BAE1167009D63B9 /* NewAccountTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75A81BAE1167009D63B9 /* NewAccountTwoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		7CAA69EC1BA9F50500C8FE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CAA69ED1BA9F50500C8FE25 /* WeekOneProjectDropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOneProjectDropboxTests.swift; sourceTree = "<group>"; };
 		7CCF75A61BAE0C11009D63B9 /* CreatNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatNewAccountViewController.swift; sourceTree = "<group>"; };
+		7CCF75A81BAE1167009D63B9 /* NewAccountTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountTwoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				7CAA69D71BA9F50500C8FE25 /* AppDelegate.swift */,
 				7CAA69D91BA9F50500C8FE25 /* ViewController.swift */,
 				7CAA69DB1BA9F50500C8FE25 /* Main.storyboard */,
+				7CCF75A81BAE1167009D63B9 /* NewAccountTwoViewController.swift */,
 				7CCF75A61BAE0C11009D63B9 /* CreatNewAccountViewController.swift */,
 				7C6010E21BADE75D0065914C /* NewAccountViewController.swift */,
 				7CAA69DE1BA9F50500C8FE25 /* Images.xcassets */,
@@ -227,6 +230,7 @@
 				7CAA69DA1BA9F50500C8FE25 /* ViewController.swift in Sources */,
 				7C6010E51BADF1C70065914C /* NextResponderTextField.swift in Sources */,
 				7C283B381BAB482400683C61 /* SettingsScrollViewController.swift in Sources */,
+				7CCF75A91BAE1167009D63B9 /* NewAccountTwoViewController.swift in Sources */,
 				7CAA69D81BA9F50500C8FE25 /* AppDelegate.swift in Sources */,
 				7C6010E31BADE75D0065914C /* NewAccountViewController.swift in Sources */,
 				7CCF75A71BAE0C11009D63B9 /* CreatNewAccountViewController.swift in Sources */,
