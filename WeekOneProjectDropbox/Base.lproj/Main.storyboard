@@ -123,7 +123,7 @@
         <!--Create Account Root View Controller-->
         <scene sceneID="5Zv-eW-dXE">
             <objects>
-                <viewController storyboardIdentifier="Create Account Root VC" id="kRk-cf-EYH" userLabel="Create Account Root View Controller" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Create Account Root VC" id="kRk-cf-EYH" userLabel="Create Account Root View Controller" customClass="CreatNewAccountViewController" customModule="WeekOneProjectDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ylp-RB-s3b">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -149,7 +149,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="gCR-pY-cwr" kind="push" id="JGj-xs-FxI"/>
+                                    <segue destination="gCR-pY-cwr" kind="modal" identifier="newAccountSegue" id="JGj-xs-FxI"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -1150,11 +1150,11 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
-        <segue reference="JGj-xs-FxI"/>
         <segue reference="cP9-oI-lGS"/>
-        <segue reference="dsM-je-SGb"/>
-        <segue reference="IA0-hT-w1M"/>
-        <segue reference="UWv-xy-y4u"/>
+        <segue reference="JGj-xs-FxI"/>
+        <segue reference="kUR-ZW-ClB"/>
         <segue reference="Zbh-6r-lf9"/>
+        <segue reference="UWv-xy-y4u"/>
+        <segue reference="dsM-je-SGb"/>
     </inferredMetricsTieBreakers>
 </document>

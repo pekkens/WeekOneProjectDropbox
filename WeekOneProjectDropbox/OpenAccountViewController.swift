@@ -1,5 +1,5 @@
 //
-//  NewAccountViewController.swift
+//  OpenAccountViewController.swift
 //  WeekOneProjectDropbox
 //
 //  Created by Prisca Ekkens on 9/19/15.
@@ -8,20 +8,16 @@
 
 import UIKit
 
-class NewAccountViewController: UIViewController, UITextFieldDelegate {
+class OpenAccountViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-
-
-    /*func textFieldShouldReturn(textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return false
-    }*/
+        // automatic segue to next screen
+        performSegueWithIdentifier("openAccountSegue", sender: self)
     }
     
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
