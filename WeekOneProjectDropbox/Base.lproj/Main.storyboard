@@ -297,7 +297,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="m1J-5A-3Up" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1536" y="1123"/>
+            <point key="canvasLocation" x="1552" y="1129"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="PQd-aj-3oF">
@@ -363,16 +363,7 @@
                                 <state key="normal">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <connections>
-                                    <segue destination="NPK-Dh-c2x" kind="modal" modalTransitionStyle="crossDissolve" id="aIg-Ta-3Kp"/>
-                                </connections>
                             </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Required" minimumFontSize="17" id="g7p-Wk-3o3" customClass="NextResponderTextField" customModule="WeekOneProjectDropbox" customModuleProvider="target">
-                                <rect key="frame" x="112" y="149" width="192" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="done" secureTextEntry="YES"/>
-                            </textField>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="janedoe@email.com" minimumFontSize="17" id="Yf4-o1-TJX" customClass="NextResponderTextField" customModule="WeekOneProjectDropbox" customModuleProvider="target">
                                 <rect key="frame" x="112" y="108" width="192" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -392,6 +383,15 @@
                                     <segue destination="NSI-nl-E8G" kind="modal" id="Zbh-6r-lf9"/>
                                 </connections>
                             </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Required" minimumFontSize="17" id="g7p-Wk-3o3" customClass="NextResponderTextField" customModule="WeekOneProjectDropbox" customModuleProvider="target">
+                                <rect key="frame" x="112" y="149" width="192" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="done" secureTextEntry="YES"/>
+                                <connections>
+                                    <segue destination="NPK-Dh-c2x" kind="modal" modalTransitionStyle="crossDissolve" id="rHj-Wy-D2S"/>
+                                </connections>
+                            </textField>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -1033,11 +1033,11 @@
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
         <segue reference="cP9-oI-lGS"/>
-        <segue reference="kUR-ZW-ClB"/>
-        <segue reference="emp-fU-mDd"/>
         <segue reference="JGj-xs-FxI"/>
-        <segue reference="Zbh-6r-lf9"/>
+        <segue reference="emp-fU-mDd"/>
+        <segue reference="IA0-hT-w1M"/>
         <segue reference="UWv-xy-y4u"/>
+        <segue reference="hyQ-UK-ekb"/>
         <segue reference="dsM-je-SGb"/>
     </inferredMetricsTieBreakers>
 </document>
