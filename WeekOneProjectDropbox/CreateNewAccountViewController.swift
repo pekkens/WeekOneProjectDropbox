@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreatNewAccountViewController: UIViewController, UITextFieldDelegate {
+class CreateNewAccountViewController: UIViewController, UITextFieldDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()

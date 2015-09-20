@@ -16,8 +16,12 @@
 		7CAA69DF1BA9F50500C8FE25 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA69DE1BA9F50500C8FE25 /* Images.xcassets */; };
 		7CAA69E21BA9F50500C8FE25 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CAA69E01BA9F50500C8FE25 /* LaunchScreen.xib */; };
 		7CAA69EE1BA9F50500C8FE25 /* WeekOneProjectDropboxTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CAA69ED1BA9F50500C8FE25 /* WeekOneProjectDropboxTests.swift */; };
-		7CCF75A71BAE0C11009D63B9 /* CreatNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75A61BAE0C11009D63B9 /* CreatNewAccountViewController.swift */; };
+		7CCF75A71BAE0C11009D63B9 /* CreateNewAccountViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75A61BAE0C11009D63B9 /* CreateNewAccountViewController.swift */; };
 		7CCF75A91BAE1167009D63B9 /* NewAccountTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75A81BAE1167009D63B9 /* NewAccountTwoViewController.swift */; };
+		7CCF75D91BAE9FCC009D63B9 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75D81BAE9FCB009D63B9 /* SignInViewController.swift */; };
+		7CCF75DB1BAEA19D009D63B9 /* SignInTwoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75DA1BAEA19D009D63B9 /* SignInTwoViewController.swift */; };
+		7CCF75DD1BAEA259009D63B9 /* SignInThreeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75DC1BAEA259009D63B9 /* SignInThreeViewController.swift */; };
+		7CCF75DF1BAEA3AB009D63B9 /* CancelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCF75DE1BAEA3AB009D63B9 /* CancelViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,8 +48,12 @@
 		7CAA69E71BA9F50500C8FE25 /* WeekOneProjectDropboxTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WeekOneProjectDropboxTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7CAA69EC1BA9F50500C8FE25 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7CAA69ED1BA9F50500C8FE25 /* WeekOneProjectDropboxTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekOneProjectDropboxTests.swift; sourceTree = "<group>"; };
-		7CCF75A61BAE0C11009D63B9 /* CreatNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreatNewAccountViewController.swift; sourceTree = "<group>"; };
+		7CCF75A61BAE0C11009D63B9 /* CreateNewAccountViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateNewAccountViewController.swift; sourceTree = "<group>"; };
 		7CCF75A81BAE1167009D63B9 /* NewAccountTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewAccountTwoViewController.swift; sourceTree = "<group>"; };
+		7CCF75D81BAE9FCB009D63B9 /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		7CCF75DA1BAEA19D009D63B9 /* SignInTwoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInTwoViewController.swift; sourceTree = "<group>"; };
+		7CCF75DC1BAEA259009D63B9 /* SignInThreeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInThreeViewController.swift; sourceTree = "<group>"; };
+		7CCF75DE1BAEA3AB009D63B9 /* CancelViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CancelViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,8 +100,12 @@
 				7CAA69D71BA9F50500C8FE25 /* AppDelegate.swift */,
 				7CAA69D91BA9F50500C8FE25 /* ViewController.swift */,
 				7CAA69DB1BA9F50500C8FE25 /* Main.storyboard */,
+				7CCF75DE1BAEA3AB009D63B9 /* CancelViewController.swift */,
+				7CCF75DC1BAEA259009D63B9 /* SignInThreeViewController.swift */,
+				7CCF75DA1BAEA19D009D63B9 /* SignInTwoViewController.swift */,
+				7CCF75D81BAE9FCB009D63B9 /* SignInViewController.swift */,
 				7CCF75A81BAE1167009D63B9 /* NewAccountTwoViewController.swift */,
-				7CCF75A61BAE0C11009D63B9 /* CreatNewAccountViewController.swift */,
+				7CCF75A61BAE0C11009D63B9 /* CreateNewAccountViewController.swift */,
 				7C6010E21BADE75D0065914C /* NewAccountViewController.swift */,
 				7CAA69DE1BA9F50500C8FE25 /* Images.xcassets */,
 				7CAA69E01BA9F50500C8FE25 /* LaunchScreen.xib */,
@@ -231,9 +243,13 @@
 				7C6010E51BADF1C70065914C /* NextResponderTextField.swift in Sources */,
 				7C283B381BAB482400683C61 /* SettingsScrollViewController.swift in Sources */,
 				7CCF75A91BAE1167009D63B9 /* NewAccountTwoViewController.swift in Sources */,
+				7CCF75DB1BAEA19D009D63B9 /* SignInTwoViewController.swift in Sources */,
+				7CCF75D91BAE9FCC009D63B9 /* SignInViewController.swift in Sources */,
 				7CAA69D81BA9F50500C8FE25 /* AppDelegate.swift in Sources */,
 				7C6010E31BADE75D0065914C /* NewAccountViewController.swift in Sources */,
-				7CCF75A71BAE0C11009D63B9 /* CreatNewAccountViewController.swift in Sources */,
+				7CCF75DF1BAEA3AB009D63B9 /* CancelViewController.swift in Sources */,
+				7CCF75A71BAE0C11009D63B9 /* CreateNewAccountViewController.swift in Sources */,
+				7CCF75DD1BAEA259009D63B9 /* SignInThreeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
