@@ -21,6 +21,6 @@ Optional:
 
 Visual Walk Through:
 
-![weekoneprojectdropbox](https://cloud.githubusercontent.com/assets/9056938/9947445/0ee7c196-5d4f-11e5-8997-463fcf60ccc0.gif)
+![weekoneprojectdropbox](https://cloud.githubusercontent.com/assets/9056938/9981700/3615a612-5f79-11e5-940a-0d45a6c34769.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
