@@ -15,12 +15,11 @@ Required:
 * [x] User can log out from the Settings screen.
 
 Optional: 
-* [ ] Add a detail view for one of the files and implement favoriting the file.
+* [x] Add a detail view for one of the files and implement favoriting the file.
 * [x] Add UITextFields for the forms so you can actually type in them and handle dismissing the keyboard.
 * [x] You should be able to swipe through the welcome screens instead of just tapping them.
 
 Visual Walk Through:
-
-![weekoneprojectdropbox](https://cloud.githubusercontent.com/assets/9056938/9981700/3615a612-5f79-11e5-940a-0d45a6c34769.gif)
+![weekoneprojectdropbox](https://cloud.githubusercontent.com/assets/9056938/9983899/63387b9a-5fc1-11e5-9a31-64d50fedd66a.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
