@@ -126,7 +126,7 @@
                                 <rect key="frame" x="112" y="86" width="192" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
                                 <connections>
                                     <outlet property="delegate" destination="gCR-pY-cwr" id="jvw-Mk-3yY"/>
                                     <outlet property="nextResponderField" destination="H99-rx-OHo" id="n3P-Is-2m1"/>
@@ -136,7 +136,7 @@
                                 <rect key="frame" x="112" y="129" width="192" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" returnKeyType="next"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="next"/>
                                 <connections>
                                     <outlet property="delegate" destination="gCR-pY-cwr" id="cHR-Tr-Sdl"/>
                                     <outlet property="nextResponderField" destination="ABR-io-RhF" id="2QG-9G-YAi"/>
@@ -146,7 +146,7 @@
                                 <rect key="frame" x="112" y="173" width="192" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next"/>
                                 <connections>
                                     <outlet property="delegate" destination="gCR-pY-cwr" id="QM0-Xu-4rm"/>
                                     <outlet property="nextResponderField" destination="Em5-1L-7zZ" id="qRr-73-vx9"/>
@@ -156,7 +156,7 @@
                                 <rect key="frame" x="112" y="219" width="192" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="done" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="done" secureTextEntry="YES"/>
                                 <connections>
                                     <outlet property="delegate" destination="gCR-pY-cwr" id="BId-Qe-kBJ"/>
                                     <segue destination="5kY-Ib-qkT" kind="modal" modalTransitionStyle="crossDissolve" id="i0h-Io-eVM"/>
@@ -303,7 +303,7 @@
                                 <rect key="frame" x="112" y="108" width="192" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" keyboardType="emailAddress" returnKeyType="next"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next"/>
                                 <connections>
                                     <outlet property="nextResponderField" destination="g7p-Wk-3o3" id="6r2-id-Gc2"/>
                                 </connections>
@@ -322,7 +322,7 @@
                                 <rect key="frame" x="112" y="149" width="192" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="done" secureTextEntry="YES"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="namePhonePad" returnKeyType="done" secureTextEntry="YES"/>
                                 <connections>
                                     <segue destination="NPK-Dh-c2x" kind="modal" modalTransitionStyle="crossDissolve" id="rHj-Wy-D2S"/>
                                 </connections>
@@ -483,12 +483,12 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="A1W-Ea-dJp" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3477" y="406"/>
+            <point key="canvasLocation" x="3383" y="406"/>
         </scene>
         <!--Terms-->
         <scene sceneID="0JO-JA-2e3">
             <objects>
-                <viewController title="Terms" modalTransitionStyle="crossDissolve" id="CNl-Z7-ViB" sceneMemberID="viewController">
+                <viewController title="Terms" modalTransitionStyle="crossDissolve" id="CNl-Z7-ViB" customClass="TermsViewController" customModule="WeekOneProjectDropbox" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Aiq-QG-J2H">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -504,7 +504,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
-                                    <segue destination="dQF-Ag-zCh" kind="modal" modalTransitionStyle="crossDissolve" id="KnC-GL-xTA"/>
+                                    <action selector="doneBtn:" destination="CNl-Z7-ViB" eventType="touchUpInside" id="GCh-MC-gux"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -793,10 +793,25 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="existing_photos" id="fBz-6D-QgS">
-                                <rect key="frame" x="0.0" y="64" width="320" height="725"/>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="Slice 1" id="jBQ-5x-NMN">
+                                <rect key="frame" x="0.0" y="-1" width="320" height="570"/>
                                 <autoresizingMask key="autoresizingMask"/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="AtE-Zl-L6j">
+                                <rect key="frame" x="0.0" y="517" width="320" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="fjR-6w-yUA">
+                                <rect key="frame" x="0.0" y="86" width="335" height="433"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <segue destination="i6L-dx-2mc" kind="push" id="Sds-0D-ja3"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
@@ -804,7 +819,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="RBH-1J-hQs" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3255" y="2568"/>
+            <point key="canvasLocation" x="3243" y="2568"/>
         </scene>
         <!--Files  Existing User-->
         <scene sceneID="7k6-eE-6an">
@@ -924,6 +939,45 @@
             </objects>
             <point key="canvasLocation" x="4068" y="2568"/>
         </scene>
+        <!--Photo Detail Favorite View Controller-->
+        <scene sceneID="KDO-E9-SUc">
+            <objects>
+                <viewController id="i6L-dx-2mc" customClass="PhotoDetailFavoriteViewController" customModule="WeekOneProjectDropbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="OYV-BP-ThV">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" image="5C" id="TfX-Zn-iOg">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="nXL-gu-v6W">
+                                <rect key="frame" x="12" y="426" width="296" height="57"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" image="stardRest">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="disabled" image="starHighlight"/>
+                                <state key="selected" image="starHighlight"/>
+                                <state key="highlighted" image="starHighlight"/>
+                                <connections>
+                                    <action selector="favoritePhotoTapped:" destination="i6L-dx-2mc" eventType="touchUpInside" id="lxP-bH-YMa"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="yvl-40-V9G">
+                                <rect key="frame" x="0.0" y="498" width="330" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="Ldk-bK-f5X"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="tC3-wO-pUZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3243" y="3260"/>
+        </scene>
         <!--Settings-->
         <scene sceneID="uVd-7x-DqZ">
             <objects>
@@ -1038,6 +1092,8 @@
         </scene>
     </scenes>
     <resources>
+        <image name="5C" width="320" height="568"/>
+        <image name="Slice 1" width="320" height="570"/>
         <image name="create4" width="320" height="568"/>
         <image name="create5" width="320" height="568"/>
         <image name="create_account" width="320" height="568"/>
@@ -1045,7 +1101,6 @@
         <image name="empty_files" width="320" height="454"/>
         <image name="empty_photos" width="320" height="454"/>
         <image name="existing_files" width="320" height="454"/>
-        <image name="existing_photos" width="320" height="725"/>
         <image name="files_tab" width="612" height="792"/>
         <image name="logged_out" width="320" height="568"/>
         <image name="photos_tab" width="612" height="792"/>
@@ -1054,6 +1109,8 @@
         <image name="sign_in1" width="320" height="568"/>
         <image name="sign_in2" width="320" height="568"/>
         <image name="sign_in3" width="320" height="568"/>
+        <image name="starHighlight" width="564" height="118"/>
+        <image name="stardRest" width="564" height="118"/>
         <image name="terms" width="320" height="568"/>
         <image name="welcome1" width="320" height="568"/>
         <image name="welcome2" width="320" height="568"/>
@@ -1065,10 +1122,9 @@
         <simulatedScreenMetrics key="destination" type="retina4"/>
     </simulatedMetricsContainer>
     <inferredMetricsTieBreakers>
+        <segue reference="Fz9-Sp-qCN"/>
+        <segue reference="q0r-At-WJM"/>
         <segue reference="kUR-ZW-ClB"/>
         <segue reference="Zbh-6r-lf9"/>
-        <segue reference="q0r-At-WJM"/>
-        <segue reference="cP9-oI-lGS"/>
-        <segue reference="Fz9-Sp-qCN"/>
     </inferredMetricsTieBreakers>
 </document>
