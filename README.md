@@ -20,6 +20,7 @@ Optional:
 * [x] You should be able to swipe through the welcome screens instead of just tapping them.
 
 Visual Walk Through:
+
 ![weekoneprojectdropbox](https://cloud.githubusercontent.com/assets/9056938/9983899/63387b9a-5fc1-11e5-9a31-64d50fedd66a.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
