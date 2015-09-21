@@ -3,7 +3,7 @@ Prototyping in Xcode
 
 This is an iOS demo for prototyping in Xocde using storyoard. See video for class notes: https://www.youtube.com/watch?v=Vgykxcjcq1A&list=PLrT2tZ9JRrf7bg_9eVWknLVTF7FWzA84x
 
-Time spent: 8 hours
+Time spent: 10-12 hours
 
 Required:
 
