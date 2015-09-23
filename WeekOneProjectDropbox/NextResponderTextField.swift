@@ -29,11 +29,11 @@ public class NextResponderTextField: UITextField {
     /**
     Creates a new view with the passed coder.
 
-    :param: aDecoder The a decoder
+    - parameter aDecoder: The a decoder
 
-    :returns: the created new view.
+    - returns: the created new view.
     */
-    public required init(coder aDecoder: NSCoder) {
+    public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
         setUp()
     }
@@ -41,9 +41,9 @@ public class NextResponderTextField: UITextField {
     /**
     Creates a new view with the passed frame.
 
-    :param: frame The frame
+    - parameter frame: The frame
 
-    :returns: the created new view.
+    - returns: the created new view.
     */
     override public init(frame: CGRect) {
         super.init(frame: frame)
@@ -60,7 +60,7 @@ public class NextResponderTextField: UITextField {
     /**
     Action keyboard button tapped.
 
-    :param: sender The sender of the action parameter.
+    - parameter sender: The sender of the action parameter.
     */
     func actionKeyboardButtonTapped(sender: UITextField) {
         switch nextResponderField {
